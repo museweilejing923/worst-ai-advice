@@ -18,7 +18,7 @@ python3 main.py
 
 ## How it works
 
-The program writes a fixed line of terrible advice to `/output/entry.txt`. Before writing, it checks the text is non-blank, at most 140 characters, contains at least one letter, and is valid UTF-8, so a bad entry fails loudly instead of being submitted. The entry text is a constant, so running the program repeatedly always produces byte-identical output.
+The program writes a fixed line of terrible advice to `/output/entry.txt`. Before writing, it checks the text is non-blank, at most 140 characters, contains at least one letter, and is valid UTF-8, so a bad entry fails loudly instead of being submitted. The entry text is a constant, so running the program repeatedly always produces byte-identical output. No input is read and no randomness is used, so the output is fully reproducible.
 
 ---
 
